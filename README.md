@@ -1,30 +1,13 @@
-#ISIS1225 - Estructura de un proyecto
-
-Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
-
-Esta organización es una sugerencia que puede ser adaptada a  las necesidades y gustos de cada persona.
-
-La estructura tiene los siguiente directorios y archivos:
-
--App
-
-Este directorio se utiliza para los archivos python desarrollados para responder a los retos del curso. Acá se pueden tener todos los archivos python que se necesiten
-
--Data
-Este directorio contiene los datos/archivos de prueba para cada uno de los retos
-
--Docs
-Este directorio tiene documentos anexos al proyecto donde se explican decisiones de diseño, análisis de algoritmos y en general información asociada al código desarrollado por cada grupo
-
--DiscLib
-Este directorio contiene todo el código de base que se entrega para el funcionamiento del curso.  Dentro de este directorio encuentran:
-    
-    |-- ADT:  Directorio con los Tipos Abstractos de Datos del curso
-
-    |--DataStructures: Directorio con todas las estructuras de datos y archivos auxiliares para su     correcto funcionamiento
-
-    |--Algorithms: Implementación de los algoritmos vistos en el curso (por ejemplo algoritmos de ordenamiento)
-
-    |-- Utils: Funciones auxiliares para el funcionamiento de los TADs y estructuras de datos
+Miguel Acosta Walteros 201914976
+- Crear una Measure (extra)
+![image](https://user-images.githubusercontent.com/60227233/131274983-d045d3e5-1999-4f70-9022-a643f0d7bd08.png)
+- Consultar la lista de Measurements en formato json
+![image](https://user-images.githubusercontent.com/60227233/131276139-8c5b0820-340f-4290-af8d-3dd8b5376601.png)
+- Consultar una Measurement dado su id
+![image](https://user-images.githubusercontent.com/60227233/131275045-16816f54-0d3b-40a5-88c4-5cf5cee5d09c.png)
+- Borrar una medida dado su identificador
+![image](https://user-images.githubusercontent.com/60227233/131275101-c71378b7-268c-48bf-9efc-3d2613890f50.png)
+- Cambiar una medida dado su identificador (reutilice el template de create)
+![image](https://user-images.githubusercontent.com/60227233/131276048-a7af920b-1690-4562-bd78-c62984293078.png)
 
 
